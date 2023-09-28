@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fogros-website/static/css/main.0ff19c70.css",
+    "main.js": "/fogros-website/static/js/main.ad58dc32.js",
+    "static/media/boschLogo.png": "/fogros-website/static/media/boschLogo.6fc14531d1517aa960d4.png",
+    "static/media/berkeleyLogo.png": "/fogros-website/static/media/berkeleyLogo.d9ff657bf23837d3d2ae.png",
+    "index.html": "/fogros-website/index.html",
+    "main.0ff19c70.css.map": "/fogros-website/static/css/main.0ff19c70.css.map",
+    "main.ad58dc32.js.map": "/fogros-website/static/js/main.ad58dc32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ff19c70.css",
+    "static/js/main.ad58dc32.js"
+  ]
+}
