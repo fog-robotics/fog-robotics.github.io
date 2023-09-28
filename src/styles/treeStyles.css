@@ -38,6 +38,10 @@
 .tree li:nth-last-child(2):after {
     right: 50%;
 }
+.tree li:last-child:after {
+    outline: none;
+}
+
 .tree code,
 .tree span {
     border: solid .1em #666;
@@ -69,9 +73,9 @@
 .tree>li {
     margin-top: 0;
 }
+.tree>li:before,
 .tree>li:after,
-.tree>li:after,
-.tree>li>code:after,
-.tree>li>span:after {
+.tree>li>code:before,
+.tree>li>span:before {
     outline: none;
 }
