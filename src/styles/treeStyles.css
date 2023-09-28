@@ -1,0 +1,77 @@
+/* Credit to https://www.cssscript.com/clean-tree-diagram/ */
+.tree,
+.tree ul,
+.tree li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.tree {
+    margin: 0 0 1em;
+    text-align: center;
+    
+}
+.tree,
+.tree ul {
+    display: table;
+}
+.tree ul {
+    width: 100%;
+}
+.tree li {
+    display: table-cell;
+    padding: .5em 0;
+    vertical-align: top;
+}
+.tree li:after {
+    outline: solid 1px #666;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.tree li:first-child:after {
+    left: 50%;
+}
+.tree li:nth-last-child(2):after {
+    right: 50%;
+}
+.tree code,
+.tree span {
+    border: solid .1em #666;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 5px .5em;
+    /* padding: .2em .5em; */
+    position: relative;
+}
+
+.tree span:after {
+    outline: solid 1px #666;
+    content: "";
+    height: 1em;
+    left: 50%;
+    bottom: -1.1em;
+    position: absolute;
+}
+
+.tree ul:after {
+    outline: solid 1px #666;
+    content: "";
+    height: 0.5em;
+    left: 50%;
+    /* top: -1.1em; */
+    position: absolute;
+}
+
+.tree>li {
+    margin-top: 0;
+}
+.tree>li:after,
+.tree>li:after,
+.tree>li>code:after,
+.tree>li>span:after {
+    outline: none;
+}

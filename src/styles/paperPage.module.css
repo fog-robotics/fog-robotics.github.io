@@ -1,0 +1,10 @@
+.linkRow {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    margin: 10px;
+    font-size: larger;
+    color: black;
+}

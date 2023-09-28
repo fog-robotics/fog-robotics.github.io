@@ -1,0 +1,7 @@
+.treeNodeWrapper {
+    padding: 30px;
+}
+
+.treeNodeWrapper:hover {
+    cursor: pointer;
+}
