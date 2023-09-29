@@ -37,6 +37,7 @@ const Home = () => {
                     </ul>
                 </li>
             </ul>
+            <h2>What is cloud robotics?</h2>
         </div>
     );
 }
