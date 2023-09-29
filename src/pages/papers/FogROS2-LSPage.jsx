@@ -14,6 +14,7 @@ const FogROS2LSPage = () => {
     
     return (
         <div>
+            <Link to="/" className={paperPageStyles.fogrosHome}>FogROS Home</Link>
             <h1>{paperTitle}</h1>
             <p>{authors}</p>
             <div className={paperPageStyles.linkRow}>

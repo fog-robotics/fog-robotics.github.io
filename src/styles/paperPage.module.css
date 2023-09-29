@@ -8,3 +8,16 @@
     font-size: larger;
     color: black;
 }
+
+.fogrosHome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    padding: 7.5px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 7.5px;
+    
+}
