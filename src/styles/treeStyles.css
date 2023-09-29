@@ -48,6 +48,7 @@
 
 .tree code,
 .tree span {
+    
     border: solid .1em #666;
     border-radius: 20px;
     display: inline-block;
