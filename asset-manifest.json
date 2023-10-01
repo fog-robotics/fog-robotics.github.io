@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fogros-website/static/css/main.627caea4.css",
-    "main.js": "/fogros-website/static/js/main.202b58b1.js",
-    "static/media/boschLogo.png": "/fogros-website/static/media/boschLogo.6fc14531d1517aa960d4.png",
-    "static/media/berkeleyLogo.png": "/fogros-website/static/media/berkeleyLogo.d9ff657bf23837d3d2ae.png",
-    "index.html": "/fogros-website/index.html",
-    "main.627caea4.css.map": "/fogros-website/static/css/main.627caea4.css.map",
-    "main.202b58b1.js.map": "/fogros-website/static/js/main.202b58b1.js.map"
+    "main.css": "/static/css/main.1bc278e7.css",
+    "main.js": "/static/js/main.0f7898d8.js",
+    "static/media/boschLogo.png": "/static/media/boschLogo.6fc14531d1517aa960d4.png",
+    "static/media/berkeleyLogo.png": "/static/media/berkeleyLogo.d9ff657bf23837d3d2ae.png",
+    "index.html": "/index.html",
+    "main.1bc278e7.css.map": "/static/css/main.1bc278e7.css.map",
+    "main.0f7898d8.js.map": "/static/js/main.0f7898d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.627caea4.css",
-    "static/js/main.202b58b1.js"
+    "static/css/main.1bc278e7.css",
+    "static/js/main.0f7898d8.js"
   ]
 }
