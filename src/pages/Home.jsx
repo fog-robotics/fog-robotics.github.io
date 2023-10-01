@@ -21,7 +21,8 @@ const Home = () => {
                     <img src={cmuLogo} className={homeStyles.logo} />
                 </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>FogROS is an open-source cloud-robotics pilot platform from UC Berkeley. Cloud computing using commercial clusters such as Amazon Web Services (AWS) is now fast enough to enable secure compute-intensive robot functions such as SLAM map building from video, grasp planning, and high dimensional motion planning to be performed in the Cloud using high-performance hardware and GPUs in near real-time. FogROS offers ROS 2 functions to streamline the deployment of robot code. Developers do not need to change their code–they need only to specify an AWS configuration of computers that they want their code to run on. FogROS coordinates the details of initiating hardware instances, installing software and dependencies, securing robot-cloud communication, and launching cloud processes.</p>
+            <div>Click below to learn more</div>
             <div className={homeStyles.treeWrapper}>
                 <ul class="tree">
                     <li>
@@ -41,7 +42,7 @@ const Home = () => {
             </div>
             <div className={homeStyles.cloudRoboticsWrapper}>
                 <h1>What is cloud robotics?</h1>
-                <p>Cloud robotics encompasses many relations between the cloud and robotics. Here we focus on what the cloud offers, explicitly focusing on the capabilities FogROS 2 can give robots by using the cloud.</p>
+                <p>Cloud robotics encompasses many relations between the cloud and robotics. Here we focus on what the cloud offers, explicitly focusing on the capabilities FogROS can give robots by using the cloud.</p>
                 
                 <h3>What is the cloud?</h3>
                 <p>
@@ -74,8 +75,8 @@ const Home = () => {
                 <h3>What is the fog?</h3>
                 <p>The fog encompasses everything between and including the cloud and the edge computing resources.</p>
             
-                <h3>FogROS(2) and Cloud Robotics</h3>
-                <p>FogROS 2 integrates ROS 2 applications with the cloud by streamlining the process of running ROS 2 nodes in the cloud and having them communicate with the robot. FogROS 2 takes care of setting up cloud computers, installing ROS and dependencies, securing network communications, starting remote nodes, and more. As a user, you will need only to configure which nodes get deployed to which region and computer type.</p>
+                <h3>FogROS and Cloud Robotics</h3>
+                <p>FogROS integrates ROS applications with the cloud by streamlining the process of running ROS 2 nodes in the cloud and having them communicate with the robot. FogROS takes care of setting up cloud computers, installing ROS and dependencies, securing network communications, starting remote nodes, and more. As a user, you will need only to configure which nodes get deployed to which region and computer type.</p>
             </div>
         </div>
     );
